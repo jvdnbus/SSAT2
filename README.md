@@ -1,15 +1,7 @@
-<!---
-**master** [![Build Status](https://travis-ci.org/RemoteTechnologiesGroup/RemoteTech.svg?branch=master)](https://travis-ci.org/RemoteTechnologiesGroup/RemoteTech)
-**develop** [![Build Status](https://travis-ci.org/RemoteTechnologiesGroup/RemoteTech.svg?branch=develop)](https://travis-ci.org/RemoteTechnologiesGroup/RemoteTech)
--->
-**master** [![Build status](https://ci.appveyor.com/api/projects/status/18ksahrxar3ghaoh/branch/master?svg=true)](https://ci.appveyor.com/project/KSP-TaxiService/remotetech-hx082/branch/master)
-**develop** [![Build status](https://ci.appveyor.com/api/projects/status/4kvchix4253kmc58/branch/develop?svg=true)](https://ci.appveyor.com/project/KSP-TaxiService/remotetech/branch/develop)
-
-
-RemoteTech
+Simple Satellites 2
 ==========
 
-A community-developed continuation of the original RemoteTech mod for Kerbal Space Program.
+An adaptation of the community-developed continuation of the original RemoteTech mod for Kerbal Space Program, for SimpleRockets 2.
 
 RemoteTech allows you to construct vast relay networks of communication satellites and remotely-controlled unmanned vehicles.
 Your unmanned vessels require an uplink to a command station to be controlled.
@@ -19,20 +11,18 @@ This adds a new layer of difficulty that compensates for the lack of live crew m
 Installation
 ------------
 
-[Download Here](https://github.com/RemoteTechnologiesGroup/RemoteTech/releases/latest) on Github or on [SpaceDock](http://spacedock.info/mod/520/RemoteTech).
-Releases deemed stable are numbered (e.g. `1.8.0`).
-Development releases are prefixed with `build-develop`.
+Coming soon.
+
+Currently working on refactoring everything on the `ksp-to-sr2` branch.
 
 
 Documentation
 -------------
 
-A [detailed manual](http://remotetechnologiesgroup.github.io/RemoteTech) is available online.
-
-Questions? Try the [KSP forum thread](http://forum.kerbalspaceprogram.com/index.php?/topic/139167-113-remotetech-v171-2016-07-02/).
+Coming soon.
 
 
-Contributing
+Credits
 ------------
 
-See the [guidelines](CONTRIBUTING.md) for both bug reports and pull requests.
+See [RemoteTechnologiesGroup/RemoteTech](https://github.com/RemoteTechnologiesGroup/RemoteTech) repository.
