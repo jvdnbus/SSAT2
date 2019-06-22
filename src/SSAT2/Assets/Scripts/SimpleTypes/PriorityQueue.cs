@@ -1,48 +1,48 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace RemoteTech.SimpleTypes
+namespace SS2.SimpleTypes
 {
-    // PriorityQueue based on a minimum-BinaryHeap.
-    public class PriorityQueue<T> : IEnumerable<T>
-    {
-        public int Count { get { return mHeap.Count; } }
+	// PriorityQueue based on a minimum-BinaryHeap.
+	public class PriorityQueue<T> : IEnumerable<T>
+	{
+		public int Count { get { return mHeap.Count; } }
 
-        private readonly BinaryHeap<T> mHeap;
+		private readonly BinaryHeap<T> mHeap;
 
-        public PriorityQueue()
-        {
-            mHeap = new BinaryHeap<T>();
-        }
+		public PriorityQueue()
+		{
+			mHeap = new BinaryHeap<T>();
+		}
 
-        public void Clear()
-        {
-            mHeap.Clear();
-        }
+		public void Clear()
+		{
+			mHeap.Clear();
+		}
 
-        public void Enqueue(T item)
-        {
-            mHeap.Add(item);
-        }
+		public void Enqueue(T item)
+		{
+			mHeap.Add(item);
+		}
 
-        public T Peek()
-        {
-            return mHeap.Peek();
-        }
+		public T Peek()
+		{
+			return mHeap.Peek();
+		}
 
-        public T Dequeue()
-        {
-            return mHeap.Remove();
-        }
+		public T Dequeue()
+		{
+			return mHeap.Remove();
+		}
 
-        public IEnumerator<T> GetEnumerator()
-        {
-            return mHeap.GetEnumerator();
-        }
+		public IEnumerator<T> GetEnumerator()
+		{
+			return mHeap.GetEnumerator();
+		}
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
-    }
+		IEnumerator IEnumerable.GetEnumerator()
+		{
+			return GetEnumerator();
+		}
+	}
 }

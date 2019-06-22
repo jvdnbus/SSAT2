@@ -1,25 +1,25 @@
 ﻿using System;
 using UnityEngine;
 
-namespace RemoteTech
+namespace SS2
 {
-    public interface ISignalProcessor
-    {
-        String Name { get; }
-        String VesselName { get; set; }
-        bool VesselLoaded { get; }
-        Guid VesselId { get; }
-        Vector3 Position { get; }
-        CelestialBody Body { get; }
+	public interface ISignalProcessor
+	{
+		String Name { get; }
+		String VesselName { get; set; }
+		bool VesselLoaded { get; }
+		Guid VesselId { get; }
+		Vector3 Position { get; }
+		CelestialBody Body { get; }
 
-        bool Visible { get; }
-        bool Powered { get; }
-        bool IsCommandStation { get; }
-        bool IsMaster { get; }
-        bool CanRelaySignal { get; }
+		bool Visible { get; }
+		bool Powered { get; }
+		bool IsCommandStation { get; }
+		bool IsMaster { get; }
+		bool CanRelaySignal { get; }
 
-        // Reserved for Flight Computer
-        FlightComputer.FlightComputer FlightComputer { get; }
-        Vessel Vessel { get; }
-    }
+		// Reserved for Flight Computer
+		FlightComputer.FlightComputer FlightComputer { get; }
+		Vessel Vessel { get; }
+	}
 }
